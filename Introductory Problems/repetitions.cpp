@@ -3,7 +3,7 @@ using namespace std;
 int main()
 {
     string str;
-    uint64_t rep, cur_rep, max_rep;
+    uint64_t cur_rep, max_rep;
     cin >> str;
     cur_rep = max_rep = 1;
     for (uint64_t i = 0; i < str.size(); i++)
